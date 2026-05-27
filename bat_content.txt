@@ -1,0 +1,211 @@
+Content:
+@echo off
+
+:: ]wsX CP950 (c餤 ANSI)
+
+chcp 950 >nul
+
+title 17pdt - @䳡pu
+
+
+
+echo ===================================================
+
+echo   [DEPLOY] 17pҩwҥdt - @s GitHub
+
+echo ===================================================
+
+echo.
+
+
+
+:: ================= z Git | =================
+
+:: dw˧ GitAWindows ܼƩ|sJ֨D
+
+set "GIT_CMD=git"
+
+
+
+if exist "C:\Program Files\Git\cmd\git.exe" (
+
+    set "GIT_CMD=C:\Program Files\Git\cmd\git.exe"
+
+) else if exist "C:\Program Files (x86)\Git\cmd\git.exe" (
+
+    set "GIT_CMD=C:\Program Files (x86)\Git\cmd\git.exe"
+
+) else if exist "%LocalAppData%\Programs\Git\cmd\git.exe" (
+
+    set "GIT_CMD=%LocalAppData%\Programs\Git\cmd\git.exe"
+
+)
+
+
+
+:: հX Git OO_
+
+"%GIT_CMD%" --version >nul 2>&1
+
+if errorlevel 1 goto error_no_git
+
+
+
+:: ˬdO_]wF Git ϥΪ̨
+
+"%GIT_CMD%" config user.email >nul 2>&1
+
+if errorlevel 1 goto error_no_identity
+
+:: =========================================================
+
+
+
+:: 1. [JȦs
+
+echo [1/3] bNҦק諸ɮץ[JȦs...
+
+"%GIT_CMD%" add .
+
+if errorlevel 1 goto error
+
+
+
+:: 2. إߴ
+
+echo.
+
+echo [2/3] bإ Git ...
+
+"%GIT_CMD%" commit -m "update: checkin system auto-updated via one-click tool"
+
+if errorlevel 1 (
+
+    echo.
+
+    echo [INFO] GGa{SsקALݤWǧsC
+
+    goto nochange
+
+)
+
+
+
+:: 3. e춳
+
+echo.
+
+echo [3/3] be GitHub  (GitHub Pages N۰ʦbIs)...
+
+"%GIT_CMD%" push origin main
+
+if errorlevel 1 (
+
+    echo.
+
+    echo [WARN] ձe main 䥢ѡAbձe master ...
+
+    "%GIT_CMD%" push origin master
+
+    if errorlevel 1 goto error
+
+)
+
+
+
+:success
+
+echo.
+
+echo ===================================================
+
+echo   [SUCCESS] ߱zI{Xw\eWǦ GitHubI
+
+echo   [TIPS] еݬ 30  1 AzWdN|sI
+
+echo ===================================================
+
+goto end
+
+
+
+:nochange
+
+echo.
+
+echo ===================================================
+
+echo   [INFO] zdtΤwgO̷sAAݶiWǳpC
+
+echo ===================================================
+
+goto end
+
+
+
+:error
+
+echo.
+
+echo ===================================================
+
+echo   [ERROR] pѡIˬdHUƶG
+
+echo   1. zqO_wgsuWH
+
+echo   2. ƧO_wP GitHub xsw즸suH
+
+echo ===================================================
+
+goto end
+
+
+
+:error_no_git
+
+echo.
+
+echo ===================================================
+
+echo   [ERROR] tΧ䤣 Git {IнT{G
+
+echo   - zO_~F Git wˡHpGOAиյۡus}vtŪ|C
+
+echo   - Ϊ̡AziHΡu즲ɮפWǡviֳtpC
+
+echo ===================================================
+
+goto end
+
+
+
+:error_no_identity
+
+echo.
+
+echo ===================================================
+
+echo   [ERROR] z|]w Git ϥΪ̨I
+
+echo   Цbz׺ݾ]Terminal^HUO]wzG
+
+echo.
+
+echo   git config --global user.email "z GitHub Hc"
+
+echo   git config --global user.name "z GitHub b"
+
+echo ===================================================
+
+goto end
+
+
+
+:end
+
+echo.
+
+echo ЫN...
+
+pause >nul
+
