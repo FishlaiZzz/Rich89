@@ -23,11 +23,11 @@
   --color-star: #ffb300;         /* 明星: Amber Gold */
   --color-star-glow: rgba(255, 179, 0, 0.4);
   
-  --color-supporter: #e53935;    /* 支持者: Sunset Red-Orange */
-  --color-supporter-glow: rgba(229, 57, 53, 0.4);
+  --color-supporter: #ff4e20;    /* 支持者: Vermilion (Warm Orange-Red) */
+  --color-supporter-glow: rgba(255, 78, 32, 0.4);
   
-  --color-dealmaker: #e91e63;    /* 媒合者: Rose Pink / Magenta */
-  --color-dealmaker-glow: rgba(233, 30, 99, 0.4);
+  --color-dealmaker: #d81b60;    /* 媒合者: Deep Fuchsia Pink / Magenta */
+  --color-dealmaker-glow: rgba(216, 27, 96, 0.4);
   
   --color-trader: #9c27b0;       /* 商人: Royal Purple / Violet */
   --color-trader-glow: rgba(156, 39, 176, 0.4);

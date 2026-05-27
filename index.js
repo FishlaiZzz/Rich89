@@ -403,8 +403,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const colors = [
       "#8bc34a", // 創作者 (Lime Green)
       "#ffb300", // 明星 (Amber Gold)
-      "#f44336", // 支持者 (Sunset Red)
-      "#e91e63", // 媒合者 (Rose Pink)
+      "#ff4e20", // 支持者 (Vermilion Orange-Red)
+      "#d81b60", // 媒合者 (Deep Fuchsia Pink)
       "#9c27b0", // 商人 (Purple)
       "#3f51b5", // 積蓄者 (Indigo)
       "#03a9f4", // 地主 (Sky Blue)
