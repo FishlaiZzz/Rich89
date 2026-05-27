@@ -16,6 +16,31 @@
   --color-steel: #4caf50;      /* Emerald Green - 地主, 技師 */
   --color-steel-glow: rgba(76, 175, 80, 0.4);
 
+  /* Wealth Dynamics 8 Talent Color Profiles (from 天賦四能量八屬性.png) */
+  --color-creator: #8bc34a;      /* 創作者: Lime Green (Green-Yellow) */
+  --color-creator-glow: rgba(139, 195, 74, 0.4);
+  
+  --color-star: #ffb300;         /* 明星: Amber Gold */
+  --color-star-glow: rgba(255, 179, 0, 0.4);
+  
+  --color-supporter: #e53935;    /* 支持者: Sunset Red-Orange */
+  --color-supporter-glow: rgba(229, 57, 53, 0.4);
+  
+  --color-dealmaker: #e91e63;    /* 媒合者: Rose Pink / Magenta */
+  --color-dealmaker-glow: rgba(233, 30, 99, 0.4);
+  
+  --color-trader: #9c27b0;       /* 商人: Royal Purple / Violet */
+  --color-trader-glow: rgba(156, 39, 176, 0.4);
+  
+  --color-accumulator: #3f51b5;  /* 積蓄者: Indigo Blue */
+  --color-accumulator-glow: rgba(63, 81, 181, 0.4);
+  
+  --color-lord: #03a9f4;         /* 地主: Sky Blue / Lord Blue */
+  --color-lord-glow: rgba(3, 169, 244, 0.4);
+  
+  --color-mechanic: #009688;     /* 技師: Deep Teal */
+  --color-mechanic-glow: rgba(0, 150, 136, 0.4);
+
   /* Neutrals & Dark Theme Colors */
   --bg-dark: #0f172a;          /* Deep Slate Blue */
   --bg-card: rgba(30, 41, 59, 0.7); /* Translucent Card */
@@ -469,6 +494,47 @@ header p {
 .energy-steel {
   --theme-color: var(--color-steel);
   --theme-color-glow: var(--color-steel-glow);
+}
+
+/* Dynamic styling classes per profile talent type */
+.talent-creator {
+  --theme-color: var(--color-creator);
+  --theme-color-glow: var(--color-creator-glow);
+}
+
+.talent-star {
+  --theme-color: var(--color-star);
+  --theme-color-glow: var(--color-star-glow);
+}
+
+.talent-supporter {
+  --theme-color: var(--color-supporter);
+  --theme-color-glow: var(--color-supporter-glow);
+}
+
+.talent-dealmaker {
+  --theme-color: var(--color-dealmaker);
+  --theme-color-glow: var(--color-dealmaker-glow);
+}
+
+.talent-trader {
+  --theme-color: var(--color-trader);
+  --theme-color-glow: var(--color-trader-glow);
+}
+
+.talent-accumulator {
+  --theme-color: var(--color-accumulator);
+  --theme-color-glow: var(--color-accumulator-glow);
+}
+
+.talent-lord {
+  --theme-color: var(--color-lord);
+  --theme-color-glow: var(--color-lord-glow);
+}
+
+.talent-mechanic {
+  --theme-color: var(--color-mechanic);
+  --theme-color-glow: var(--color-mechanic-glow);
 }
 
 /* Responsive Styles for perfect rendering */

@@ -369,7 +369,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const nextBtn = document.getElementById("nextBtn");
   const bgParticles = document.getElementById("bgParticles");
 
-  // Helper: Wealth Dynamics Profile Energy Category
+  // Helper: Wealth Dynamics Profile Energy Category (kept for compatibility)
   function getEnergyClass(talent) {
     const dynamo = ["創作者", "明星"];
     const blaze = ["支持者", "媒合者"];
@@ -383,9 +383,33 @@ document.addEventListener("DOMContentLoaded", () => {
     return "energy-blaze"; // default
   }
 
-  // 2. Initialize Background Particles
+  // Helper: Get Talent Key Name for CSS variables and classes mapping (from 天賦四能量八屬性.png)
+  function getTalentName(talent) {
+    const mapping = {
+      "創作者": "creator",
+      "明星": "star",
+      "支持者": "supporter",
+      "媒合者": "dealmaker",
+      "商人": "trader",
+      "積蓄者": "accumulator",
+      "地主": "lord",
+      "技師": "mechanic"
+    };
+    return mapping[talent] || "supporter";
+  }
+
+  // 2. Initialize Background Particles with all 8 Talent colors for a premium vibrant environment
   function initBackgroundParticles() {
-    const colors = ["#ff5722", "#e91e63", "#00bcd4", "#4caf50"];
+    const colors = [
+      "#8bc34a", // 創作者 (Lime Green)
+      "#ffb300", // 明星 (Amber Gold)
+      "#f44336", // 支持者 (Sunset Red)
+      "#e91e63", // 媒合者 (Rose Pink)
+      "#9c27b0", // 商人 (Purple)
+      "#3f51b5", // 積蓄者 (Indigo)
+      "#03a9f4", // 地主 (Sky Blue)
+      "#009688"  // 技師 (Deep Teal)
+    ];
     for (let i = 0; i < 15; i++) {
       const particle = document.createElement("div");
       particle.classList.add("particle");
@@ -445,15 +469,26 @@ document.addEventListener("DOMContentLoaded", () => {
       groupStrip.classList.add("vertical-group-badge");
       groupStrip.innerHTML = `<span>第 ${num} 組</span>`;
       
+      // Dynamic double-color gradient representing the golden partnership of the two parents
+      if (group.members && group.members.length >= 2) {
+        const talent1 = getTalentName(group.members[0].talent);
+        const talent2 = getTalentName(group.members[1].talent);
+        groupStrip.style.background = `linear-gradient(180deg, var(--color-${talent1}) 0%, var(--color-${talent2}) 100%)`;
+      } else if (group.members && group.members.length === 1) {
+        const talent = getTalentName(group.members[0].talent);
+        groupStrip.style.background = `var(--color-${talent})`;
+      }
+      
       const contentGrid = document.createElement("div");
       contentGrid.classList.add("slide-content-grid");
       
       // Add profile cards
       group.members.forEach(member => {
-        const energyClass = getEnergyClass(member.talent);
+        const talentName = getTalentName(member.talent);
+        const talentClass = `talent-${talentName}`;
         
         const card = document.createElement("div");
-        card.classList.add("profile-card", energyClass);
+        card.classList.add("profile-card", talentClass);
         
         // Render tags list
         const tagsHtml = member.tags
