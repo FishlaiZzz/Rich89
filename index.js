@@ -630,4 +630,25 @@ document.addEventListener("DOMContentLoaded", () => {
   renderNavTabs();
   renderSlides();
   switchGroup(0); // Set default group to Group 1
+
+  // 8. Add Force Refresh (Ctrl+F5) Floating Button
+  function initForceRefreshButton() {
+    const refreshBtn = document.createElement("button");
+    refreshBtn.classList.add("force-refresh-btn");
+    refreshBtn.setAttribute("aria-label", "強制重新整理 (清除快取)");
+    refreshBtn.setAttribute("title", "強制重新整理 (清除快取 / Ctrl+F5)");
+    refreshBtn.innerHTML = `
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"></path>
+      </svg>
+    `;
+    refreshBtn.addEventListener("click", () => {
+      // Add a timestamp parameter to force browser and CDN cache bypass
+      const url = new URL(window.location.href);
+      url.searchParams.set("cache_bypass", Date.now());
+      window.location.replace(url.toString());
+    });
+    document.body.appendChild(refreshBtn);
+  }
+  initForceRefreshButton();
 });
