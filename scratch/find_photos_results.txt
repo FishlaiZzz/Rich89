@@ -1,0 +1,57 @@
+Found 26 members in index.js
+Found 127 photos in d:\Antigravity\Rich\reference\photo
+
+=== MATCHES FOUND ===
+Name: 王慈惠 | Talent in JS: 支持者 | Role: 家長 | Current Img: reference/avatar_female_1.png
+  -> Found Photo File: 支持者-王慈惠.jpg
+Name: 蕭惠允 | Talent in JS: 積蓄者 | Role: 副家長 | Current Img: reference/avatar_female_2.png
+  -> Found Photo File: 積蓄者-蕭惠允.jpg
+Name: 許蓓瑾 | Talent in JS: 積蓄者 | Role: 家長 | Current Img: reference/avatar_female_1.png
+  -> Found Photo File: 積蓄者-許蓓瑾.jpg
+Name: 楊家瑜 | Talent in JS: 積蓄者 | Role: 副家長 | Current Img: reference/avatar_female_2.png
+  -> Found Photo File: 積蓄者-楊家瑜.jpg
+Name: 劉錦芳 | Talent in JS: 媒合者 | Role: 家長 | Current Img: reference/avatar_female_1.png
+  -> Found Photo File: 媒合者-劉錦芳.jpg
+Name: 楊琬琳 | Talent in JS: 支持者 | Role: 副家長 | Current Img: reference/avatar_female_2.png
+  -> Found Photo File: 媒合者-楊琬琳.jpg
+Name: 楊君慧 | Talent in JS: 創作者 | Role: 家長 | Current Img: reference/avatar_female_1.png
+  -> Found Photo File: 創作者-楊君慧.jpg
+Name: 周詩容 | Talent in JS: 技師 | Role: 副家長 | Current Img: reference/avatar_female_2.png
+  -> Found Photo File: 技師-周詩容.jpg
+Name: 黃雲嵩 | Talent in JS: 創作者 | Role: 家長 | Current Img: reference/avatar_male_1.png
+  -> Found Photo File: 創作者-黃雲嵩.jpg
+Name: 賴貞如 | Talent in JS: 商人 | Role: 副家長 | Current Img: reference/avatar_female_1.png
+  -> Found Photo File: 商人-賴貞如.jpg
+Name: 王雅琳 | Talent in JS: 地主 | Role: 家長 | Current Img: reference/avatar_female_2.png
+  -> Found Photo File: 地主-王雅琳.jpg
+Name: 林苡姗 | Talent in JS: 明星 | Role: 副家長 | Current Img: reference/avatar_female_1.png
+  -> Found Photo File: 明星-林苡姗.jpg
+Name: 陳瑩臻 | Talent in JS: 支持者 | Role: 家長 | Current Img: reference/avatar_female_2.png
+  -> Found Photo File: 支持者-陳瑩臻.jpg
+Name: 許淳皓 | Talent in JS: 媒合者 | Role: 副家長 | Current Img: reference/avatar_male_2.png
+  -> Found Photo File: 媒合者-許淳皓.jpg
+Name: 林胤呈 | Talent in JS: 創作者 | Role: 家長 | Current Img: reference/avatar_male_1.png
+  -> Found Photo File: 創作者-林胤呈.jpg
+Name: 張庭熒 | Talent in JS: 積蓄者 | Role: 副家長 | Current Img: reference/avatar_female_1.png
+  -> Found Photo File: 積蓄者-張庭熒.jpg
+Name: 楊振達 | Talent in JS: 技師 | Role: 家長 | Current Img: reference/avatar_male_2.png
+  -> Found Photo File: 技師-楊振達.jpg
+Name: 吳家怡 | Talent in JS: 創作者 | Role: 家長 | Current Img: reference/avatar_female_1.png
+  -> Found Photo File: 創作者-吳家怡.jpg
+Name: 徐瑩瑩 | Talent in JS: 地主 | Role: 副家長 | Current Img: reference/avatar_female_2.png
+  -> Found Photo File: 地主-徐瑩瑩.jpg
+Name: 江勁霖 | Talent in JS: 支持者 | Role: 家長 | Current Img: reference/avatar_male_1.png
+  -> Found Photo File: 支持者-江勁霖.jpg
+Name: 楊媛媛 | Talent in JS: 積蓄者 | Role: 副家長 | Current Img: reference/avatar_female_1.png
+  -> Found Photo File: 地主-楊媛媛.jpg
+Name: 王宥鈞 | Talent in JS: 支持者 | Role: 家長 | Current Img: reference/avatar_male_2.png
+  -> Found Photo File: 商人-王宥鈞.jpg
+Name: 陳彥萍 | Talent in JS: 積蓄者 | Role: 副家長 | Current Img: reference/avatar_female_2.png
+  -> Found Photo File: 積蓄者-陳彥萍.jpg
+Name: 謝彥馨 | Talent in JS: 創作者 | Role: 家長 | Current Img: reference/avatar_female_1.png
+  -> Found Photo File: 商人-謝彥馨.jpg
+Name: 張家榮 | Talent in JS: 地主 | Role: 副家長 | Current Img: reference/avatar_male_1.png
+  -> Found Photo File: 地主-張家榮.jpg
+
+=== WARNING: MISMATCHES / NO PHOTO FOUND ===
+Name: 王佩婷 | Talent in JS: 支持者 | Role: 副家長 | Current Img: reference/avatar_female_2.png

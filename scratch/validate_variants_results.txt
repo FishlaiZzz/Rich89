@@ -1,0 +1,12 @@
+
+================ VALIDATING: index.js ================
+Parsed 26 profiles inside index.js data model.
+SUCCESS: index.js is 100% valid and correct.
+
+================ VALIDATING: index2.js ================
+Parsed 26 profiles inside index2.js data model.
+SUCCESS: index2.js is 100% valid and correct.
+
+================ VALIDATING: index3.js ================
+Parsed 26 profiles inside index3.js data model.
+SUCCESS: index3.js is 100% valid and correct.

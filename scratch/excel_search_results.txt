@@ -1,0 +1,23 @@
+
+--- Reading file: RAY哥-實戰班PPT.xlsx ---
+  Sheet: 78-88天 (max_row=1000, max_col=25)
+  Sheet: 工作表2 (max_row=1, max_col=1)
+
+--- Reading file: RAY哥-實戰班PPT2.xlsx ---
+  Sheet: Rich89 (max_row=138, max_col=4)
+    [MATCH G9/YANG] Row 117: 楊振達 | 技師 | #短影音操盤手
+#操盤影片流量破439萬
+#皮膚管理師 | 已更新
+  Sheet: RAY哥-實戰班PPT2 (max_row=138, max_col=3)
+
+--- Reading file: RAY哥-實戰班PPT2_backup.xlsx ---
+  Sheet: Rich89 (max_row=138, max_col=3)
+  Sheet: RAY哥-實戰班PPT2 (max_row=138, max_col=3)
+
+--- Reading file: 輕易豐盛學院｜天賦實戰班表單-資料庫.xlsx ---
+  Sheet: 78-88天 (max_row=1000, max_col=16)
+    [MATCH G9/YANG] Row 118: 技師 | 楊振達 | #短影音操盤手
+#操盤影片流量破439萬
+#皮膚管理師
+#天賦輔導長
+  Sheet: 工作表2 (max_row=1, max_col=1)

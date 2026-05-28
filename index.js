@@ -10,18 +10,18 @@ document.addEventListener("DOMContentLoaded", () => {
           "name": "王慈惠",
           "talent": "支持者",
           "role": "家長",
-          "image": "reference/avatar_female_1.png",
+          "image": "reference/photo/支持者-王慈惠.jpg",
           "tags": [
-            "＃資深平面設計師",
-            "＃加入Rich二年多還清百萬",
-            "＃從負到富的樂天派女孩"
+            "#資深平面設計師",
+            "#加入Rich二年多還清百萬",
+            "#從負到富的樂天派女孩"
           ]
         },
         {
           "name": "蕭惠允",
           "talent": "積蓄者",
           "role": "副家長",
-          "image": "reference/avatar_female_2.png",
+          "image": "reference/photo/積蓄者-蕭惠允.jpg",
           "tags": [
             "#精力充沛的小電池",
             "#轉職中的工程師",
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "name": "許蓓瑾",
           "talent": "積蓄者",
           "role": "家長",
-          "image": "reference/avatar_female_1.png",
+          "image": "reference/photo/積蓄者-許蓓瑾.jpg",
           "tags": [
             "#一對一健身教練",
             "#天賦輔導員",
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "name": "楊家瑜",
           "talent": "積蓄者",
           "role": "副家長",
-          "image": "reference/avatar_female_2.png",
+          "image": "reference/photo/積蓄者-楊家瑜.jpg",
           "tags": [
             "#孕育中的溫火媽咪",
             "#暖心陪跑天使",
@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "name": "劉錦芳",
           "talent": "媒合者",
           "role": "家長",
-          "image": "reference/avatar_female_1.png",
+          "image": "reference/photo/媒合者-劉錦芳.jpg",
           "tags": [
             "#寺廟建築採購",
             "#夢想實現家",
@@ -73,9 +73,9 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {
           "name": "楊琬琳",
-          "talent": "支持者",
+          "talent": "媒合者",
           "role": "副家長",
-          "image": "reference/avatar_female_2.png",
+          "image": "reference/photo/媒合者-楊琬琳.jpg",
           "tags": [
             "#咖啡師斜槓房仲",
             "#崇尚自由的靈魂",
@@ -91,7 +91,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "name": "楊君慧",
           "talent": "創作者",
           "role": "家長",
-          "image": "reference/avatar_female_1.png",
+          "image": "reference/photo/創作者-楊君慧.jpg",
           "tags": [
             "#學苑自媒體營運總監",
             "#遠距自由工作者",
@@ -102,11 +102,11 @@ document.addEventListener("DOMContentLoaded", () => {
           "name": "周詩容",
           "talent": "技師",
           "role": "副家長",
-          "image": "reference/avatar_female_2.png",
+          "image": "reference/photo/技師-周詩容.jpg",
           "tags": [
-            "＃ 11年行銷人",
-            "＃可愛又奇怪的自學達人",
-            "＃人類圖系統化咨詢師"
+            "#11年行銷人",
+            "#可愛又奇怪的自學達人",
+            "#人類圖系統化咨詢師"
           ]
         }
       ]
@@ -118,18 +118,18 @@ document.addEventListener("DOMContentLoaded", () => {
           "name": "黃雲嵩",
           "talent": "創作者",
           "role": "家長",
-          "image": "reference/avatar_male_1.png",
+          "image": "reference/photo/創作者-黃雲嵩.jpg",
           "tags": [
-            "＃徒走戈壁沙漠的挑戰者",
-            "＃在Rich兩年內賺回10倍學費",
-            "＃ 財富流教練"
+            "#徒走戈壁沙漠的挑戰者",
+            "#在Rich兩年內賺回10倍學費",
+            "#財富流教練"
           ]
         },
         {
           "name": "賴貞如",
           "talent": "商人",
           "role": "副家長",
-          "image": "reference/avatar_female_1.png",
+          "image": "reference/photo/商人-賴貞如.jpg",
           "tags": [
             "#暖心陪伴數十位小孩長高的管理師",
             "#超愛抽血的醫檢師",
@@ -145,7 +145,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "name": "王雅琳",
           "talent": "地主",
           "role": "家長",
-          "image": "reference/avatar_female_2.png",
+          "image": "reference/photo/地主-王雅琳.jpg",
           "tags": [
             "#生涯發展諮詢師找到你的光",
             "#連鎖集團人資閱歷超過上千人",
@@ -156,7 +156,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "name": "林苡姗",
           "talent": "明星",
           "role": "副家長",
-          "image": "reference/avatar_female_1.png",
+          "image": "reference/photo/明星-林苡姗.jpg",
           "tags": [
             "#1313小星星",
             "#氣氛製造機",
@@ -172,7 +172,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "name": "陳瑩臻",
           "talent": "支持者",
           "role": "家長",
-          "image": "reference/avatar_female_2.png",
+          "image": "reference/photo/支持者-陳瑩臻.jpg",
           "tags": [
             "#國營鐵飯碗轉保險經紀人",
             "#轉職一年後出國7次",
@@ -183,7 +183,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "name": "許淳皓",
           "talent": "媒合者",
           "role": "副家長",
-          "image": "reference/avatar_male_2.png",
+          "image": "reference/photo/媒合者-許淳皓.jpg",
           "tags": [
             "#北漂公務員",
             "#發現自己價值的陪跑員",
@@ -199,7 +199,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "name": "林胤呈",
           "talent": "創作者",
           "role": "家長",
-          "image": "reference/avatar_male_1.png",
+          "image": "reference/photo/創作者-林胤呈.jpg",
           "tags": [
             "#國家創業比賽優勝",
             "#NASDAQ Pre-IPO輔導",
@@ -210,7 +210,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "name": "張庭熒",
           "talent": "積蓄者",
           "role": "副家長",
-          "image": "reference/avatar_female_1.png",
+          "image": "reference/photo/積蓄者-張庭熒.jpg",
           "tags": [
             "#天賦指引師",
             "#暖心鋼鐵業務",
@@ -226,7 +226,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "name": "楊振達",
           "talent": "技師",
           "role": "家長",
-          "image": "reference/avatar_male_2.png",
+          "image": "reference/photo/技師-楊振達.jpg",
           "tags": [
             "#短影音操盤手",
             "#操盤影片流量破439萬",
@@ -237,11 +237,11 @@ document.addEventListener("DOMContentLoaded", () => {
           "name": "王佩婷",
           "talent": "支持者",
           "role": "副家長",
-          "image": "reference/avatar_female_2.png",
+          "image": "reference/photo/avatar_female_2.png",
           "tags": [
-            "#溫慢熱情支持者",
-            "#財務規劃教練",
-            "#順流人生實踐者"
+            "(待補)",
+            "(待補)",
+            "(待補)"
           ]
         }
       ]
@@ -253,18 +253,18 @@ document.addEventListener("DOMContentLoaded", () => {
           "name": "吳家怡",
           "talent": "創作者",
           "role": "家長",
-          "image": "reference/avatar_female_1.png",
+          "image": "reference/photo/創作者-吳家怡.jpg",
           "tags": [
-            "＃ 10年日商品牌企劃經驗",
-            "＃馬拉松跑者/專業配速員",
-            "＃富而喜悅/輕易豐盛 文化的傳播者"
+            "#10年日商品牌企劃經驗",
+            "#馬拉松跑者/專業配速員",
+            "#富而喜悅/輕易豐盛 文化的傳播者"
           ]
         },
         {
           "name": "徐瑩瑩",
           "talent": "地主",
           "role": "副家長",
-          "image": "reference/avatar_female_2.png",
+          "image": "reference/photo/地主-徐瑩瑩.jpg",
           "tags": [
             "#德國芳療協會芳療師",
             "#身心平衡療癒老師",
@@ -280,7 +280,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "name": "江勁霖",
           "talent": "支持者",
           "role": "家長",
-          "image": "reference/avatar_male_1.png",
+          "image": "reference/photo/支持者-江勁霖.jpg",
           "tags": [
             "#蝦皮百萬營業額賣家",
             "#天賦指引師",
@@ -289,13 +289,13 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {
           "name": "楊媛媛",
-          "talent": "積蓄者",
+          "talent": "地主",
           "role": "副家長",
-          "image": "reference/avatar_female_1.png",
+          "image": "reference/photo/地主-楊媛媛.jpg",
           "tags": [
-            "#細水長流積蓄者",
-            "#天賦諮詢師",
-            "#專業財務規劃師"
+            "#國土防衛部員工",
+            "#因為天賦解開與上級10年心結",
+            "#3年後準備N轉的人"
           ]
         }
       ]
@@ -305,20 +305,20 @@ document.addEventListener("DOMContentLoaded", () => {
       "members": [
         {
           "name": "王宥鈞",
-          "talent": "支持者",
+          "talent": "商人",
           "role": "家長",
-          "image": "reference/avatar_male_2.png",
+          "image": "reference/photo/商人-王宥鈞.jpg",
           "tags": [
-            "#溫暖陪伴輔導員",
-            "#天賦指引師",
-            "#能量學實踐者"
+            "#能量學輔導長",
+            "#台灣茶製茶師",
+            "#高雄應用科大 遇到台灣茶教授"
           ]
         },
         {
           "name": "陳彥萍",
           "talent": "積蓄者",
           "role": "副家長",
-          "image": "reference/avatar_female_2.png",
+          "image": "reference/photo/積蓄者-陳彥萍.jpg",
           "tags": [
             "#寵物美容師",
             "#豐盛自在寶媽",
@@ -332,20 +332,20 @@ document.addEventListener("DOMContentLoaded", () => {
       "members": [
         {
           "name": "謝彥馨",
-          "talent": "創作者",
+          "talent": "商人",
           "role": "家長",
-          "image": "reference/avatar_female_1.png",
+          "image": "reference/photo/商人-謝彥馨.jpg",
           "tags": [
-            "#能量學高階輔導長",
-            "#天賦順流指引師",
-            "#雙北地區財富流教練"
+            "#幸福的女人",
+            "#能量學輔導長",
+            "#天賦順流文化推廣者"
           ]
         },
         {
           "name": "張家榮",
           "talent": "地主",
           "role": "副家長",
-          "image": "reference/avatar_male_1.png",
+          "image": "reference/photo/地主-張家榮.jpg",
           "tags": [
             "#16年機構工程師",
             "#象棋密碼卜卦師",
@@ -498,7 +498,7 @@ document.addEventListener("DOMContentLoaded", () => {
         card.innerHTML = `
           <div class="role-badge">${member.role}</div>
           <div class="profile-image-container">
-            <img class="profile-image" src="${member.image}" alt="${member.name} - ${member.talent}" loading="lazy">
+            <img class="profile-image" src="${member.image}" alt="${member.name} - ${member.talent}" loading="lazy"${member.name === "江勁霖" ? ' style="object-fit: contain; object-position: top;"' : ''}>
             <div class="image-gradient-overlay"></div>
             <div class="profile-overlay-badge-container">
               <span class="talent-badge">${member.talent}</span>

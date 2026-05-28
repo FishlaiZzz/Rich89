@@ -1,0 +1,7 @@
+Checking for files containing '佩婷':
+
+Checking for files containing '佩':
+
+Checking for files containing '婷':
+MATCH: 地主-張婷茹.jpg
+MATCH: 積蓄者-黃欣婷.jpg
